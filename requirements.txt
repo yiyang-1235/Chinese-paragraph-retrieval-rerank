@@ -1,0 +1,19 @@
+# 中文段落检索与重排序 — 依赖列表
+# 建议 Python 3.9+
+
+# 数据集下载
+datasets>=2.18.0
+huggingface_hub>=0.22.0
+
+# BM25 + 中文分词
+rank_bm25>=0.2.2
+jieba>=0.42.1
+
+# 向量检索
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0        # GPU 版：faiss-gpu（ RTX 4050 可用，但 cpu 版足够）
+
+# 工具
+numpy>=1.24.0
+tqdm>=4.66.0
+pandas>=2.0.0

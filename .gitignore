@@ -1,0 +1,38 @@
+# Python缓存文件（你现在已经上传的 __pycache__、pyc 就在这里过滤）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 模型权重、checkpoint（非常大，禁止上传github！）
+*.bin
+*.pth
+*.ckpt
+*.safetensors
+checkpoints/
+outputs/
+
+# 数据集文件夹（你的data目录，不要传数据集）
+data/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+
+# 日志
+*.log
+logs/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE配置
+.vscode/
+.idea/
+
+# 压缩包
+*.zip
+*.tar
+*.gz
